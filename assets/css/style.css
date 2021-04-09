@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600&display=swap');
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/*-------------Header / heading */
+
+#name {
+    font-family: "Montserrat", sans-serif;
+    background-color: slategray;
+    text-align: left;
+    color: #fafafa;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+   
+    
+    
+
+}
+
+#name p {
+    font-family: "Montserrat", sans-serif;
+    color: magenta;
+    letter-spacing: 2px;
+    text-transform: none;
+    
+    
+
+}
+
+
+#image {
+    background-color: slategrey;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+/*-------------MRemember to credit circle image W3C. Also want to incorporate an animation*/
+}
+
+#menu {
+    padding-top: 10px; /*-------------create space between sections, one way*/
+    background-color:lightgoldenrodyellow;
+    text-align:center;
+    width: 100%;
+    margin: 0;
+    
+}
+
+#menu li {
+    display:inline-block;
+    letter-spacing: 4px;
+    margin-right: 45px;
+    
+    
+}
+
+#menu li a {
+    color: slategrey;
+}
+
+
+/*-------------Main content */
+
+#one {
+    background-color:lightgray;
+    text-align:center;
+    
+    
+}
+#two {
+    background-color: lightgray;
+    text-align:center;
+    
+}
+hr {
+    margin-bottom: 0;
+    width: 70%;
+    height: 1.5px;
+    color: slategray;
+    /*-------------Make a visual break between sections, wanted to create breathing space, margin-bottom credit to reddit */
+}
+
+
+/*-------------Footer */
+
+#footer {    
+    padding-top: 10px;
+    background-color: lightslategray;
+    float: left;    
+    
+}
+
+#footer p {
+    color: #fafafa; 
+       
+}
+
+#footer ul {
+    padding-left: 0;
+}
+
+#footer li {
+    color: magenta;
+    padding-left: 0px; /*-------------I couldn't get the sections to align straight, Google DevTools show a padding of 40px. Took it away, problem solved */
+      
+    
+}
+
+
+#social li  {
+    display:inline-block;
+    /*-------------Want to display in a line, not stacked up on top of each other */
+    
+    
+}
+
+#social a {
+    color: #fafafa;
+    letter-spacing: 2rem;
+}
