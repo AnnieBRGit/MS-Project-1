@@ -17,6 +17,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
+    padding-top: 15px;
    
     
     
@@ -39,11 +40,11 @@ body {
     padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
-/*-------------MRemember to credit circle image W3C. Also want to incorporate an animation*/
+/*-------------Remember to credit circle image W3C. Also want to incorporate an animation*/
 }
 
 #menu {
-    padding-top: 10px; /*-------------create space between sections, one way*/
+    padding-top: 15px; /*-------------create space between sections, one way*/
     background-color:lightgoldenrodyellow;
     text-align:center;
     width: 100%;
@@ -68,15 +69,24 @@ body {
 
 #one {
     background-color:lightgray;
-    text-align:center;
-    
+    text-align: center;  
     
 }
+
 #two {
     background-color: lightgray;
-    text-align:center;
+    text-align: center;
+    
+}    
+
+#three {
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 15px;
     
 }
+    
+
 hr {
     margin-bottom: 0;
     width: 70%;
@@ -91,7 +101,9 @@ hr {
 #footer {    
     padding-top: 10px;
     background-color: lightslategray;
-    float: left;    
+    float: left;  
+  
+       
     
 }
 
@@ -101,13 +113,13 @@ hr {
 }
 
 #footer ul {
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 #footer li {
     color: magenta;
     padding-left: 0px; /*-------------I couldn't get the sections to align straight, Google DevTools show a padding of 40px. Took it away, problem solved */
-      
+     
     
 }
 
@@ -123,3 +135,50 @@ hr {
     color: #fafafa;
     letter-spacing: 2rem;
 }
+
+
+/*-------------Page 3 */
+
+.map {
+
+    overflow: hidden;
+    padding-bottom: 56%;
+    position: relative;
+    height: 0;
+
+}
+
+.map iframe {
+    border: 1px solid slategray;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.callout {
+    color: magenta;
+    
+}
+
+form {
+    border: 1px solid slategray;
+    padding: 10px;
+    justify-content: left;
+}
+
+.form-check {
+    position: relative;
+    display: block;        
+    margin: 20px;
+}
+
+#workout {
+    line-height: 2px;
+    color: magenta;
+}
+
+
+
