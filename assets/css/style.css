@@ -53,7 +53,7 @@ body {
 }
 
 #menu li {
-    display:inline-block;
+    display: inline-block;
     letter-spacing: 4px;
     margin-right: 45px;
     
@@ -84,6 +84,23 @@ body {
     text-align: center;
     padding-top: 15px;
     
+}
+
+#four {
+    background-color: lightgray;    
+    padding-top: 15px;    
+   
+       
+}
+
+
+
+h5 {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
 }
     
 
@@ -137,7 +154,7 @@ hr {
 }
 
 
-/*-------------Page 3 */
+/*-------------Page 3 Contact */
 
 .map {
 
@@ -179,6 +196,27 @@ form {
     line-height: 2px;
     color: magenta;
 }
+
+
+#schedule {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0;
+    padding-top: 0px;
+    
+}
+
+/*-------------Page 4 Gallery */
+
+.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;   
+}
+
+ 
 
 
 
