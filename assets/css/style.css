@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600&display=swap');
 
-
 body {
     font-family: "Montserrat", sans-serif;
-
 }
 
 /*-------------Header / heading */
@@ -17,11 +15,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
-    padding-top: 15px;
-   
-    
-    
-
+    padding-top: 15px;  
 }
 
 #name p {
@@ -29,80 +23,68 @@ body {
     color: magenta;
     letter-spacing: 2px;
     text-transform: none;
-    
-    
-
 }
-
 
 #image {
     background-color: slategrey;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-/*-------------Remember to credit circle image W3C. Also want to incorporate an animation*/
+    width: 100%; 
+    height: 50%;     
+}
+
+.container-fluid #image {
+    width: 100%;    
+    margin-right: auto;
+    margin-left: auto;
+    background-color: slategrey;
 }
 
 #menu {
-    padding-top: 15px; /*-------------create space between sections, one way*/
-    background-color:lightgoldenrodyellow;
-    text-align:center;
-    width: 100%;
-    margin: 0;
-    
-}
+    padding-top: 15px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    width: 100%;    
+} 
 
 #menu li {
     display: inline-block;
     letter-spacing: 4px;
     margin-right: 45px;
-    
-    
+    justify-content: center;    
 }
 
 #menu li a {
     color: slategrey;
 }
 
-
 /*-------------Main content */
 
 #one {
     background-color:lightgray;
     text-align: center;  
-    
 }
 
 #two {
     background-color: lightgray;
-    text-align: center;
-    
-}    
+    text-align: center;    
+}  
 
 #three {
     background-color: lightgray;
     text-align: center;
-    padding-top: 15px;
-    
+    padding-top: 15px;    
 }
 
 #four {
     background-color: lightgray;    
-    padding-top: 15px;    
-   
-       
+    padding-top: 15px;   
 }
-
-
 
 h5 {
     padding-top: 35px;
     padding-bottom: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
-
-}
-    
+}  
 
 hr {
     margin-bottom: 0;
@@ -112,21 +94,16 @@ hr {
     /*-------------Make a visual break between sections, wanted to create breathing space, margin-bottom credit to reddit */
 }
 
-
 /*-------------Footer */
 
 #footer {    
     padding-top: 10px;
     background-color: lightslategray;
-    float: left;  
-  
-       
-    
+    float: left;         
 }
 
 #footer p {
-    color: #fafafa; 
-       
+    color: #fafafa;      
 }
 
 #footer ul {
@@ -135,17 +112,12 @@ hr {
 
 #footer li {
     color: magenta;
-    padding-left: 0px; /*-------------I couldn't get the sections to align straight, Google DevTools show a padding of 40px. Took it away, problem solved */
-     
-    
+    padding-left: 0px; /*-------------I couldn't get the sections to align straight, Google DevTools show a padding of 40px. Took it away, problem solved */  
 }
-
 
 #social li  {
     display:inline-block;
     /*-------------Want to display in a line, not stacked up on top of each other */
-    
-    
 }
 
 #social a {
@@ -153,16 +125,13 @@ hr {
     letter-spacing: 2rem;
 }
 
-
 /*-------------Page 3 Contact */
 
 .map {
-
     overflow: hidden;
     padding-bottom: 56%;
     position: relative;
     height: 0;
-
 }
 
 .map iframe {
@@ -172,12 +141,10 @@ hr {
     height: 100%;
     width: 100%;
     position: absolute;
-
 }
 
 .callout {
-    color: magenta;
-    
+    color: magenta; 
 }
 
 form {
@@ -197,14 +164,12 @@ form {
     color: magenta;
 }
 
-
 #schedule {
     list-style-type: none;
     display: inline-block;
     vertical-align: middle;
     padding-left: 0;
     padding-top: 0px;
-    
 }
 
 /*-------------Page 4 Gallery */
