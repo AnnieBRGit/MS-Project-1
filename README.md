@@ -1,8 +1,9 @@
  README.md
 MS Project 1 – Ladybug Gym
-Click here to view website in browser.
+Click here to view website in browser. - https://anniebrgit.github.io/MS-Project-1/
 
 This is the main website for imaginary gym “Ladybug Gym”. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential old and new customers.
+
 User Experience (UX)
 •	User stories
 o	First Time Visitor Goals
@@ -28,12 +29,13 @@ o	Home Page Wireframe –
 
 
 o	Mobile Wireframe – 
-                          
-
 
 
 
 o	Gallery Page Wireframe – 
+
+
+
                             
  
 Features
