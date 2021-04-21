@@ -28,7 +28,8 @@ body {
 #image {
     background-color: slategrey;
     width: 100%; 
-    height: 50%;     
+    height: 50%;   
+    padding-bottom: 20px;  
 }
 
 .container-fluid #image {
