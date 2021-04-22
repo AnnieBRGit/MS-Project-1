@@ -36,10 +36,12 @@ This is the main website for imaginary gym “Ladybug Gym”, a Milestone Projec
 ## Wireframes 
 
 **Home Page Wireframe**
+
 ![Home Wireframe](https://github.com/AnnieBRGit/MS-Project-1/blob/master/assets/images/contact-us-balsamic.JPG)
 
 
 **Contact Us and Mobile Wireframe**
+
 ![Contact Us Wireframe](https://github.com/AnnieBRGit/MS-Project-1/blob/master/assets/images/contact-us-balsamic.JPG)                      
 
                             
